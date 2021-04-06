@@ -1,10 +1,10 @@
 provider "azurerm" {
   features {}
 
-  subscription_id = "600deb8c-e8b4-4f07-ba11-8e346aea454d"
-  client_id       = "61e2942c-46f2-4076-b7f4-1d57d7633284"
-  client_secret   = "Z6C4Jv18BnCnV--POF5uc8M1~EQ.Oa4P0z"
-  tenant_id       = "eafae6a9-9bd5-4338-8307-b96f95c64cc8"
+  subscription_id = "xxxx"
+  client_id       = "xxx"
+  client_secret   = "xxx"
+  tenant_id       = "xxx"
 }
 
 ##https://docs.microsoft.com/en-us/azure/developer/terraform/create-linux-virtual-machine-with-infrastructure
@@ -157,3 +157,5 @@ resource "azurerm_linux_virtual_machine" "myterraformvm" {
         environment = "Terraform Demo"
     }
 }
+
+  
